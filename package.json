@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:staging:headless": "cypress run --headless --spec 'cypress/e2e/**/*' --config viewportWidth=1000,viewportHeight=660  --record ",
+    "test:staging:ci": " cypress run --headless --browser chrome  --spec  'cypress/e2e/**/*' --config viewportWidth=1280,viewportHeight=800 --record ",
+    "test:staging:local": "npx cypress open"
   },
   "author": "",
   "license": "ISC",
