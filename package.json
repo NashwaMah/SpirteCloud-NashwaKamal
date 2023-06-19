@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test:staging:headless": "cypress run --headless --spec 'cypress/e2e/**/*' --config viewportWidth=1000,viewportHeight=660  --record ",
-    "test:staging:ci": " cypress run --headless --browser chrome  --spec  'cypress/e2e/**/*' --config viewportWidth=1280,viewportHeight=800 --record ",
+     "test:staging:headless": "cypress run --headless --spec 'cypress/e2e/**/*' --config viewportWidth=1000,viewportHeight=660  --record --key 0514bbbf-e473-4706-ad54-46d35d417d5b",
+    "test:staging:ci": " cypress run --headless --browser chrome  --spec  'cypress/e2e/**/*' --config viewportWidth=1280,viewportHeight=800 --record --key 0514bbbf-e473-4706-ad54-46d35d417d5b ",
     "test:staging:local": "npx cypress open"
   },
   "author": "",
