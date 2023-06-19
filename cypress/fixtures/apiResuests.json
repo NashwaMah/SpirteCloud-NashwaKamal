@@ -1,0 +1,51 @@
+{
+    "newPet": {
+        "id": 0,
+        "category": {
+            "id": 0,
+            "name": "new"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    "updatePet": {
+        "id": 800,
+        "category": {
+            "id": 2,
+            "name": "new"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 2,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    "newUser":{
+        "id": 123,
+        "username": "NashwaKamal",
+        "firstName": "Nashwa",
+        "lastName": "Kamal",
+        "email": "nou_elturkey@hotmail.com",
+        "password": "test",
+        "phone": "+3198739423",
+        "userStatus": 1
+      },
+      "userUrl":"https://petstore.swagger.io/v2/user",
+      "petURL":"https://petstore.swagger.io/v2/pet"
+    
+}

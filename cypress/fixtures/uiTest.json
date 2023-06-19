@@ -2,5 +2,9 @@
     "homeHeader":"UI Test AutomationPlayground",
     "resourceHeader":"Resources",
     "resourceUrl":"resources",
-    "homeUrl":"home"
+    "homeUrl":"home",
+    "linkToOpenFromHomepage":"Dynamic ID",
+    "homelinkCheck":"dynamicid",
+    "linkToOpenFromResourcepage":"devhints.io",
+    "resourcelinkCheck":"https://devhints.io/"
 }

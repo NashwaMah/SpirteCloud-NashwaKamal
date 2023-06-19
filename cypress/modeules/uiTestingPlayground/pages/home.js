@@ -26,6 +26,10 @@ export class HomePage {
         })
     }
    
+    openUrlFromHomePage(urlName)
+    {
+        cy.get("a").contains(urlName).click()
+    }
 
   
 }
