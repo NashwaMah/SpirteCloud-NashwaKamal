@@ -38,6 +38,9 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v2.5.2
         
+      - name: setup dependencies
+        run: npm install
+        
       - name: run code
         run: npm run test:staging:ci
 
