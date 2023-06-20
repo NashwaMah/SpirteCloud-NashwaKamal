@@ -1,9 +1,7 @@
 # SpirteCloud-NashwaKamal
  Language : Javascript
 
- Framework : TestCafe
-
- API Framework : axois
+ Framework : Cypress
 
 Before run the project :
 
