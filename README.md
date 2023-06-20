@@ -23,7 +23,7 @@ To check Test Execution Results :
 - https://cloud.cypress.io/projects/sfuueb/runs 
 
 To Check tests on Pipeline : 
-- Check Actions tab in Github for this Repository 
+- https://github.com/NashwaMah/SpirteCloud-NashwaKamal/actions/workflows/cypress.yml
 
 Tests Implemented for http://www.uitestingplayground.com/ :
 
