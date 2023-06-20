@@ -7,23 +7,23 @@
 
 Before run the project :
 
- Download Node.js
+ - Download Node.js
 
 inside Project Terminal run below :
 
- npm install 
+- npm install 
 
 Run tests on pipeline : 
-npm run test:staging:ci
+-npm run test:staging:ci
 
 Run tests local:
-test:staging:local
+-test:staging:local
 
 To check Test Execution Results :
-https://cloud.cypress.io/projects/sfuueb/runs 
+- https://cloud.cypress.io/projects/sfuueb/runs 
 
 To Check tests on Pipeline : 
-Check Actions tab in Github for this Repository 
+- Check Actions tab in Github for this Repository 
 
 Tests Implemented for http://www.uitestingplayground.com/ :
 
