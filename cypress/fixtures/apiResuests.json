@@ -1,8 +1,8 @@
 {
     "newPet": {
-        "id": 0,
+        "id": 200,
         "category": {
-            "id": 0,
+            "id": 21,
             "name": "new"
         },
         "name": "doggie",
@@ -11,7 +11,7 @@
         ],
         "tags": [
             {
-                "id": 0,
+                "id": 22,
                 "name": "string"
             }
         ],
@@ -46,6 +46,15 @@
         "userStatus": 1
       },
       "userUrl":"https://petstore.swagger.io/v2/user",
-      "petURL":"https://petstore.swagger.io/v2/pet"
+      "petURL":"https://petstore.swagger.io/v2/pet",
+      "orderURL":"https://petstore.swagger.io/v2/store/order",
+      "newOrder":{
+        "id": 2,
+        "petId": 800,
+        "quantity": 2,
+        "shipDate": "2023-06-19T23:50:19.846+0000",
+        "status": "placed",
+        "complete": true
+      }
     
 }
